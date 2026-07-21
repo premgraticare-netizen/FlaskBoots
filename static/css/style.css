@@ -1,0 +1,179 @@
+body{
+    background:#f5f7fa;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Hero */
+
+.hero{
+
+    height:550px;
+
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600");
+
+    background-size:cover;
+    background-position:center;
+
+}
+
+.hero-overlay{
+
+    height:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hero h1{
+
+    font-weight:700;
+
+}
+
+.card{
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+section{
+
+    margin-bottom:70px;
+
+}
+
+footer{
+
+    margin-top:80px;
+
+}
+
+/* Testimonials */
+
+.card{
+    border-radius:15px;
+    transition:0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+.text-warning{
+    letter-spacing:3px;
+}
+
+.card{
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.list-group-item{
+    border:none;
+    padding:12px 0;
+}
+
+section{
+    margin-bottom:60px;
+}
+
+.card{
+    border-radius:15px;
+    transition:0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.rounded-circle{
+    object-fit:cover;
+}
+
+section{
+    margin-bottom:60px;
+}
+
+/* Footer */
+
+footer{
+    background:#212529;
+}
+
+.footer-link{
+    color:#dcdcdc;
+    text-decoration:none;
+    display:block;
+    margin-bottom:10px;
+    transition:.3s;
+}
+
+.footer-link:hover{
+    color:#0d6efd;
+    padding-left:5px;
+}
+
+.social-icon{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background:#0d6efd;
+    color:#fff;
+    border-radius:50%;
+    margin-right:10px;
+    transition:.3s;
+    text-decoration:none;
+}
+
+.social-icon:hover{
+    background:#fff;
+    color:#0d6efd;
+    transform:translateY(-5px);
+}
+
+/* Floating WhatsApp Button */
+
+.whatsapp-float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
+    z-index: 9999;
+    transition: all .3s ease;
+}
+
+.whatsapp-float:hover{
+    background: #1EBE5D;
+    color: white;
+    transform: scale(1.1);
+}
