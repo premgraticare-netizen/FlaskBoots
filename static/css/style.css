@@ -280,4 +280,45 @@ body{
 }
 
 
+/* Clients Slider */
+
+.logo-slider{
+    overflow:hidden;
+    position:relative;
+    width:100%;
+    background:#fff;
+}
+
+.logo-track{
+    display:flex;
+    width:calc(180px * 12);
+    animation:scroll 25s linear infinite;
+}
+
+.logo-track img{
+    width:160px;
+    height:80px;
+    object-fit:contain;
+    margin:0 25px;
+    filter:grayscale(100%);
+    transition:.3s;
+}
+
+.logo-track img:hover{
+    filter:grayscale(0%);
+    transform:scale(1.08);
+}
+
+@keyframes scroll{
+
+    0%{
+        transform:translateX(0);
+    }
+
+    100%{
+        transform:translateX(calc(-180px * 6));
+    }
+
+}
+
 
